@@ -1,0 +1,232 @@
+body 
+{
+
+   background: url('tło.jpg');
+   color: #99CCFF;
+   font-size: 20px;
+} 
+
+#container
+{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.rectengle
+{
+	width: 960px;
+	margin: 20px;
+	text-align: center;
+}
+
+.square
+{
+	width: 50%;
+	float: left;
+
+}
+
+#logo
+{
+	float: left;
+	font-size: 70px;
+	width: 550px;
+	color: #99CCFF;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+    border-color: 0033FF;
+    border-style: solid;
+    border-width: 7px;
+	border-radius: 20px;
+	background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0, 0.6); 
+}
+
+#zegar
+{
+	float: right;
+	font-size: 70px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+    border-color: 0033FF;
+    border-style: solid;
+    border-width: 7px;
+    border-radius: 20px;
+	background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0, 0.6); 
+}
+
+.kafelka1
+{
+	margin: 10px;
+	width: 480px;
+	height: 142px;
+	background-color: #3095d3;
+	float: left;
+	text-align: center;
+}
+
+.kafelka1:hover
+{
+	background-color: #2084c2;
+}
+
+.kafelka2
+{
+	margin: 10px;
+	width: 230px;
+	height: 142px;
+	background-color: #778899;
+	float: left;
+    text-align: center;
+}
+
+.kafelka2:hover
+{
+	background-color: #667788;
+}
+
+
+.kafelka3
+{
+	margin: 10px;
+	width: 480px;
+	height: 142px;
+	background-color: #93c748;
+	float: left;
+	text-align: center;
+}
+
+.kafelka3:hover
+{
+	background-color: #82b637;
+}
+
+.kafelka4
+{
+	margin: 10px;
+	width: 230px;
+	height: 142px;
+	background-color: #003399;
+	float: left;
+	text-align: center;
+}
+
+.kafelka4:hover
+{
+	background-color: #002288;
+}
+
+.kafelka5
+{
+	margin: 10px;
+	width: 230px;
+	height: 142px;
+	background-color: #CC3300;
+	float: left;
+	text-align: center;
+}
+
+.kafelka5:hover
+{
+	background-color: #BB2200;
+}
+
+.img
+{
+    margin: 50px;
+	margin-left: 144px;
+	width: 480px;
+	height: 224px;
+	background-image: url(favicon/android-chrome-192x192.png);
+	background-repeat: no-repeat;
+}
+
+.tekst
+{
+	margin 10px;
+	margin-top: 30px;
+	width: 440px;
+	height: 270px;
+	text-align: center;
+	font-size: 30px;
+	border-color: 0033FF;
+    border-style: solid;
+    border-width: 7px;
+    margin: 10px;
+    padding: 10px;
+	border-radius: 20px;
+	background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0, 0.6); 
+}
+
+.yt
+{
+	margin: 10px;
+	width: 105px;
+	height: 142px;
+	background-color: #d94348;
+	float: left;
+}
+
+.yt:hover
+{
+	background-color: #c83237;
+}
+
+.fb
+{
+	margin: 10px;
+	width: 105px;
+	height: 142px;
+	background-color: #4668b3;
+	float: left;
+}
+
+.fb:hover
+{
+	background-color: #3557a2;
+}
+
+.github
+{
+	margin: 10px;
+	width: 105px;
+	height: 142px;
+	background-color: #263238;
+	float: left;
+}
+
+.github:hover
+{
+	background-color: #152127;
+}
+
+.zse
+{
+	margin: 10px;
+	width: 105px;
+	height: 142px;
+	background-color: #FF9900;
+	float: left;
+}
+
+.zse:hover
+{
+	background-color: #EE8800;
+}
+
+a.linkkafelki
+{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+a.socialmedialink
+{
+	color: #ffffff;
+	text-decoration: none;
+}
+}
