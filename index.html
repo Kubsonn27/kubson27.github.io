@@ -1,45 +1,96 @@
 <!DOCTYPE html>
-<html>
- <head>
-  <title></title>
+<html lang-"pl">
+<head>
   <meta charset="utf-8"/>
-<title>Kolor tekstu, wartość color</title>
-  <meta charset="utf-8"/>
-  <style>
-body {
-color: olive;
-}
-h1 {
-color: #ff0000;
-}
-h2 {
-color: rgb(0,255,0);
-}
-h3 {
-color: rgb(0,255,0,0.5);
-}
-h4 {
-color: hsl(60,60%,60%);
-}
-h5 {
-color: hsla(60,60%,60%,0.5);
-}
-h6 {
-color: coral;
-}
-button {
-opacity: 0.5;
-}
-  </style>
- </head>
- <body>
- Domyślny kolor tekstu strony.
- <h1>Kolor rgb w #rrggbb</h1>
- <h2>Kolor rgb w rgb(r,g,b)</h2>
- <h3>Kolor rgb w postaci rgba(r,g,b,a)</h3>
- <h4>Kolor hsl w postaci hsl(H,S,L)</h4>
- <h5>Kolor hsl w postaci hsla(H,S,L,A)</h5>
- <h6>Kolor w postaci nazwy</h6>
- <button>TEST</button>
- </body>
-</html>
+ 
+  <title> Jakub Ptak - Portfolio</title>
+ 
+  <meta name="description" content="Moje portfolio"/>
+  <meta name="keywords" content="Jakub, portfolio"/>
+  <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon"/>
+ 
+  <link rel="stylesheet" href="style.css" type="text/css"/>
+  <link rel="stylesheet" href="css/fontello.css" type="text/css"/>
+  
+  <script src="timer.js"></script>
+
+  
+</head>
+
+<body onload="odliczanie();">
+
+  <div id="container">
+  
+    <div class="rectangle">
+	  <a href="index.html" class="socialmedialink" >
+	    <div id="logo">Jakub Ptak</div>
+	  </a>
+	  <div id="zegar">12:00:00</div>
+	  <div style="clear: both;"></div>
+	</div>
+	
+	<div class="square">
+		<a href="kimjestem.html"  class="linkkafelki">
+	     <div class="kafelka1">
+         <i class="icon-user"></i><br/>Kim jestem?
+	     </div>
+		 </a>
+	   <div class="clear: both;"></div>
+	 
+	   <a href="kontakt.html" class="linkkafelki" >
+	    <div class="kafelka3">
+	   	     <i class="icon-mail-alt"></i><br/>Kontakt
+	    </div>
+		</a>
+	   <div class="clear: both;"></div>
+	   
+	   <a href="https://www.w3.org/Style/CSS/specs.en.html"  class="linkkafelki" target="_blank">
+	   <div class="kafelka4">
+	      <i class="icon-css3"></i><br/>CSS3
+	   </div>
+	   </a>
+	   
+	   <a href="https://www.w3schools.com/html/"  class="linkkafelki" target="_blank">
+	    <div class="kafelka5">
+	       <i class="icon-html5"></i><br/>HTML5
+	    </div>
+	   </a>
+	</div>
+	<div class="square">
+	  <div class="img"></div>
+	  
+	  <a href="https://www.youtube.com"  class="socialmedialink" target="_blank">
+	  <div class="yt">
+	     <i class="icon-youtube"></i>
+	  </div>
+	  </a>
+	  
+	  <a href="https://www.facebook.com"  class="socialmedialink" target="_blank">
+	  <div class="fb">
+	  	   <i class="icon-facebook-official"></i>
+	  </div>
+	  </a>
+	  
+	  <a href="https://github.com/Karol0307"  class="socialmedialink" target="_blank">
+	  <div class="github">
+	  	     <i class="icon-github-squared"></i>
+	  </div>
+	  </a>
+	  
+	  <a href="http://www.zse-kielce.edu.pl/"  class="socialmedialink" target="_blank">
+	  <div class="zse">
+	  	     <i class="icon-graduation-cap"></i>
+	  </div>
+	  </a>
+	   <div class="clear: both;"></div>
+	</div>
+	<div style="clear: both;"></div>
+	
+	<div class="rectengle"><br/><br/>2019 &copy; Karol Poniewierski - Portfolio</div>
+	  <a href="Portfolio/index.html" class="socialmedialink" target="blank">
+		<div class="rectengle"><br/><br/>Nowe Portfolio</div></a>
+	
+  </div>
+
+</body>
+</html>  
