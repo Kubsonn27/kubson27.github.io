@@ -1,3 +1,12 @@
+body {
+font-family: Georgia;
+}
+header{
+background: #824555;
+color: white;
+text-align: center;
+padding: 20px;
+}
 .pg12 {
 background: #A26475;
 color: white;
