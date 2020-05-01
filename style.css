@@ -13,6 +13,13 @@ body
 	margin-right: auto;
 }
 
+.rectengle
+{
+	width: 1500px;
+	margin: 20px;
+	text-align: center;
+}
+
 #logo
 {
 	float: left;
